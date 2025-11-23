@@ -3909,3 +3909,35 @@ beginseg
     include "$(BUILD_DIR)/assets/scenes/dungeons/ganontikasonogo/ganontikasonogo_room_1.o"
     number 3
 endseg
+
+beginseg
+    name "mytest_scene"
+    compress
+    romalign 0x1000
+    include "$(BUILD_DIR)/assets/scenes/custom/mytest/mytest_scene.o"
+    number 2
+endseg
+
+beginseg
+    name "mytest_room_0"
+    compress
+    romalign 0x1000
+    include "$(BUILD_DIR)/assets/scenes/custom/mytest/mytest_room_0.o"
+    number 3
+endseg
+
+beginseg
+    name "bedroom_scene"
+    compress
+    romalign 0x1000
+    include "$(BUILD_DIR)/assets/scenes/custom/bedroom/bedroom_scene.o"
+    number 2
+endseg
+
+beginseg
+    name "bedroom_room_0"
+    compress
+    romalign 0x1000
+    include "$(BUILD_DIR)/assets/scenes/custom/bedroom/bedroom_room_0.o"
+    number 3
+endseg

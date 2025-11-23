@@ -77,6 +77,10 @@ static MapSelectEntry sScenes[] = {
 #if CAN_INCLUDE_EXAMPLE_SCENE
     { "Example", MapSelect_LoadGame, ENTR_EXAMPLE_0 },
 #endif
+/* Custom */
+    { "My Test Map", MapSelect_LoadGame, ENTR_MYTEST_0 },
+    { "Bedroom", MapSelect_LoadGame, ENTR_BEDROOM_0 },
+
     { "Hyrule Field", MapSelect_LoadGame, ENTR_HYRULE_FIELD_0 },
     { "Kakariko Village", MapSelect_LoadGame, ENTR_KAKARIKO_VILLAGE_0 },
     { "Graveyard", MapSelect_LoadGame, ENTR_GRAVEYARD_0 },

@@ -3941,3 +3941,19 @@ beginseg
     include "$(BUILD_DIR)/assets/scenes/custom/bedroom/bedroom_room_0.o"
     number 3
 endseg
+
+beginseg
+    name "greatbay_scene"
+    compress
+    romalign 0x1000
+    include "$(BUILD_DIR)/assets/scenes/custom/greatbay/greatbay_scene.o"
+    number 2
+endseg
+
+beginseg
+    name "greatbay_room_0"
+    compress
+    romalign 0x1000
+    include "$(BUILD_DIR)/assets/scenes/custom/greatbay/greatbay_room_0.o"
+    number 3
+endseg

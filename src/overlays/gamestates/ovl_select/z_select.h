@@ -80,6 +80,7 @@ static MapSelectEntry sScenes[] = {
 /* Custom */
     { "My Test Map", MapSelect_LoadGame, ENTR_MYTEST_0 },
     { "Bedroom", MapSelect_LoadGame, ENTR_BEDROOM_0 },
+    { "Great Bay", MapSelect_LoadGame, ENTR_GREATBAY_0 },
 
     { "Hyrule Field", MapSelect_LoadGame, ENTR_HYRULE_FIELD_0 },
     { "Kakariko Village", MapSelect_LoadGame, ENTR_KAKARIKO_VILLAGE_0 },

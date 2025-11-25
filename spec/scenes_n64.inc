@@ -3957,3 +3957,19 @@ beginseg
     include "$(BUILD_DIR)/assets/scenes/custom/greatbay/greatbay_room_0.o"
     number 3
 endseg
+
+beginseg
+    name "pikmin_scene"
+    compress
+    romalign 0x1000
+    include "$(BUILD_DIR)/assets/scenes/custom/pikmin/pikmin_scene.o"
+    number 2
+endseg
+
+beginseg
+    name "pikmin_room_0"
+    compress
+    romalign 0x1000
+    include "$(BUILD_DIR)/assets/scenes/custom/pikmin/pikmin_room_0.o"
+    number 3
+endseg
